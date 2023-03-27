@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>Браузер::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <innerclass refid="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl" prot="private">Браузер::MainWindow::Zakl</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a95cb6d9db2464702de7c72ae447485f2" prot="private" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kindref="compound">History</ref> &gt;</type>
+        <definition>ObservableCollection&lt;History&gt; Браузер.MainWindow.histories</definition>
+        <argsstring></argsstring>
+        <name>histories</name>
+        <qualifiedname>Браузер.MainWindow.histories</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="21" column="30" bodyfile="MainWindow.xaml.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acf9431377a40eaf5ad1dcae933f34178" prot="private" static="no" mutable="no">
+        <type>List&lt; Zakl &gt;</type>
+        <definition>List&lt;Zakl&gt; Браузер.MainWindow.zakladki</definition>
+        <argsstring></argsstring>
+        <name>zakladki</name>
+        <qualifiedname>Браузер.MainWindow.zakladki</qualifiedname>
+        <initializer>= new List&lt;Zakl&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="22" column="14" bodyfile="MainWindow.xaml.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ab4cfa43e953c264d8f2d8bd0b4cb5da0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Браузер.MainWindow.nameFile</definition>
+        <argsstring></argsstring>
+        <name>nameFile</name>
+        <qualifiedname>Браузер.MainWindow.nameFile</qualifiedname>
+        <initializer>= Directory.GetCurrentDirectory() + @&quot;\History.dat&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="142" column="23" bodyfile="MainWindow.xaml.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4bdd7099ac9f1799e780e66111c228e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Браузер.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <qualifiedname>Браузер.MainWindow.MainWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="26" column="16" bodyfile="MainWindow.xaml.cs" bodystart="26" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac3d3d11a855b69333f38d5c13d42e459" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.MainWindow_Closing</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>MainWindow_Closing</name>
+        <qualifiedname>Браузер.MainWindow.MainWindow_Closing</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="54" column="22" bodyfile="MainWindow.xaml.cs" bodystart="54" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a76bde1ed05052f14898b2112b32fc997" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btUpdate_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btUpdate_Click</name>
+        <qualifiedname>Браузер.MainWindow.btUpdate_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="68" column="22" bodyfile="MainWindow.xaml.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1af0841faa8e086193db33a28df142e365" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btBack_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btBack_Click</name>
+        <qualifiedname>Браузер.MainWindow.btBack_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="74" column="22" bodyfile="MainWindow.xaml.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a77ea373461bd0d10c1bbd16891398d90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btForward_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btForward_Click</name>
+        <qualifiedname>Браузер.MainWindow.btForward_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="81" column="22" bodyfile="MainWindow.xaml.cs" bodystart="81" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1afbf3e9f72711d46164321d700268e054" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.tbUrl_KeyUp</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>tbUrl_KeyUp</name>
+        <qualifiedname>Браузер.MainWindow.tbUrl_KeyUp</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="89" column="22" bodyfile="MainWindow.xaml.cs" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac25536e3e68d61b14311eeb4e11d478c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.Search</definition>
+        <argsstring>()</argsstring>
+        <name>Search</name>
+        <qualifiedname>Браузер.MainWindow.Search</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="96" column="22" bodyfile="MainWindow.xaml.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a5fd85f73e4774aa30c5f2857b335cf9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btHistory_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>btHistory_SelectionChanged</name>
+        <qualifiedname>Браузер.MainWindow.btHistory_SelectionChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="104" column="22" bodyfile="MainWindow.xaml.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a192d1680843a01a6c8082702b1abc024" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btNew_Tab_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btNew_Tab_Click</name>
+        <qualifiedname>Браузер.MainWindow.btNew_Tab_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="110" column="22" bodyfile="MainWindow.xaml.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a7e369a688c7ff6ec7926046e44e97e89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.AddTab</definition>
+        <argsstring>(string url)</argsstring>
+        <name>AddTab</name>
+        <qualifiedname>Браузер.MainWindow.AddTab</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="114" column="22" bodyfile="MainWindow.xaml.cs" bodystart="114" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aaac78d2311fc26805cd225b8f55d5147" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.WebBrowser_Navigated</definition>
+        <argsstring>(object sender, NavigationEventArgs e)</argsstring>
+        <name>WebBrowser_Navigated</name>
+        <qualifiedname>Браузер.MainWindow.WebBrowser_Navigated</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="144" column="22" bodyfile="MainWindow.xaml.cs" bodystart="144" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acc12a99fe2316c6b9ab681397a3bc0bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.CountingButton_OnClick</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>CountingButton_OnClick</name>
+        <qualifiedname>Браузер.MainWindow.CountingButton_OnClick</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="161" column="22" bodyfile="MainWindow.xaml.cs" bodystart="161" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aea3c301b72af926c01ee2f6774733e55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btDelete_Tab_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btDelete_Tab_Click</name>
+        <qualifiedname>Браузер.MainWindow.btDelete_Tab_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="171" column="22" bodyfile="MainWindow.xaml.cs" bodystart="171" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae9e7d49a7cb0fefe8f37a8bb207be11a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.PickColor_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>PickColor_Click</name>
+        <qualifiedname>Браузер.MainWindow.PickColor_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="190" column="22" bodyfile="MainWindow.xaml.cs" bodystart="190" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4928a327ec7d13d843d621d529967168" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow._History_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>_History_Click</name>
+        <qualifiedname>Браузер.MainWindow._History_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="198" column="22" bodyfile="MainWindow.xaml.cs" bodystart="198" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a31eaad45daf7f6ab28608e78ed0c62a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btSearch_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btSearch_Click</name>
+        <qualifiedname>Браузер.MainWindow.btSearch_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="206" column="22" bodyfile="MainWindow.xaml.cs" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4ce22f842a5806b22798346c90088051" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btAddZaklad_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btAddZaklad_Click</name>
+        <qualifiedname>Браузер.MainWindow.btAddZaklad_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="211" column="22" bodyfile="MainWindow.xaml.cs" bodystart="211" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4e1f4649883ba6d850182586898d4da6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btDeleteZaklad_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btDeleteZaklad_Click</name>
+        <qualifiedname>Браузер.MainWindow.btDeleteZaklad_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="221" column="22" bodyfile="MainWindow.xaml.cs" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a9739d00062e567d03fdb644e59f20777" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btGoForZakl_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btGoForZakl_Click</name>
+        <qualifiedname>Браузер.MainWindow.btGoForZakl_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="226" column="22" bodyfile="MainWindow.xaml.cs" bodystart="226" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac232eb242cfdda8ffe835c5ddd286763" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btPrint_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btPrint_Click</name>
+        <qualifiedname>Браузер.MainWindow.btPrint_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="236" column="22" bodyfile="MainWindow.xaml.cs" bodystart="236" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a0ff5db124d92f7447b836fa29bb705de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btDuplicate_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btDuplicate_Click</name>
+        <qualifiedname>Браузер.MainWindow.btDuplicate_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="247" column="22" bodyfile="MainWindow.xaml.cs" bodystart="247" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae27c130c1bf69f44c0cb037bd5596cda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.MainWindow.btDeleteAllTabs_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btDeleteAllTabs_Click</name>
+        <qualifiedname>Браузер.MainWindow.btDeleteAllTabs_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="254" column="22" bodyfile="MainWindow.xaml.cs" bodystart="254" bodyend="262"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.MainWindow</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.MainWindow</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MainWindow.xaml.cs" line="19" column="19" bodyfile="MainWindow.xaml.cs" bodystart="20" bodyend="274"/>
+    <listofallmembers>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4928a327ec7d13d843d621d529967168" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>_History_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a7e369a688c7ff6ec7926046e44e97e89" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>AddTab</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4ce22f842a5806b22798346c90088051" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btAddZaklad_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1af0841faa8e086193db33a28df142e365" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btBack_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aea3c301b72af926c01ee2f6774733e55" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btDelete_Tab_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae27c130c1bf69f44c0cb037bd5596cda" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btDeleteAllTabs_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4e1f4649883ba6d850182586898d4da6" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btDeleteZaklad_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a0ff5db124d92f7447b836fa29bb705de" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btDuplicate_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a77ea373461bd0d10c1bbd16891398d90" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btForward_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a9739d00062e567d03fdb644e59f20777" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btGoForZakl_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a5fd85f73e4774aa30c5f2857b335cf9d" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btHistory_SelectionChanged</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a192d1680843a01a6c8082702b1abc024" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btNew_Tab_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac232eb242cfdda8ffe835c5ddd286763" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btPrint_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a31eaad45daf7f6ab28608e78ed0c62a3" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btSearch_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a76bde1ed05052f14898b2112b32fc997" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>btUpdate_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acc12a99fe2316c6b9ab681397a3bc0bc" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>CountingButton_OnClick</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a95cb6d9db2464702de7c72ae447485f2" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>histories</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4bdd7099ac9f1799e780e66111c228e0" prot="public" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac3d3d11a855b69333f38d5c13d42e459" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>MainWindow_Closing</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ab4cfa43e953c264d8f2d8bd0b4cb5da0" prot="public" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>nameFile</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae9e7d49a7cb0fefe8f37a8bb207be11a" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>PickColor_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac25536e3e68d61b14311eeb4e11d478c" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>Search</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1afbf3e9f72711d46164321d700268e054" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>tbUrl_KeyUp</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aaac78d2311fc26805cd225b8f55d5147" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>WebBrowser_Navigated</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acf9431377a40eaf5ad1dcae933f34178" prot="private" virt="non-virtual"><scope>Браузер::MainWindow</scope><name>zakladki</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

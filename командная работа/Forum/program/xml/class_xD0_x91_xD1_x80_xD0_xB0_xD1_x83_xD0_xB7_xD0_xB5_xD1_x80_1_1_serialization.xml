@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization" kind="class" language="C#" prot="public">
+    <compoundname>Браузер::Serialization</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1a947c9316ffcb3a198090cd802f252eea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Браузер.Serialization.Save</definition>
+        <argsstring>(object source, string filePath)</argsstring>
+        <name>Save</name>
+        <qualifiedname>Браузер.Serialization.Save</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Serialization.cs" line="13" column="28" bodyfile="Serialization.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1af8fe6e538aa7a322ab433442f7c39d24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T Браузер.Serialization.Get&lt; T &gt;</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>Get&lt; T &gt;</name>
+        <qualifiedname>Браузер.Serialization.Get&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Serialization.cs" line="22" column="23" bodyfile="Serialization.cs" bodystart="22" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Serialization.cs" line="11" column="5" bodyfile="Serialization.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1af8fe6e538aa7a322ab433442f7c39d24" prot="public" virt="non-virtual"><scope>Браузер::Serialization</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1a947c9316ffcb3a198090cd802f252eea" prot="public" virt="non-virtual"><scope>Браузер::Serialization</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

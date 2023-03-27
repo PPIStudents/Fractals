@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80" kind="namespace" language="C#">
+    <compoundname>Браузер</compoundname>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_app" prot="public">Браузер::App</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_closable_tab_item" prot="public">Браузер::ClosableTabItem</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker" prot="public">Браузер::ColorPicker</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" prot="public">Браузер::History</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog" prot="public">Браузер::HistoryDialog</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" prot="public">Браузер::MainWindow</innerclass>
+    <innerclass refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization" prot="public">Браузер::Serialization</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="App.xaml.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

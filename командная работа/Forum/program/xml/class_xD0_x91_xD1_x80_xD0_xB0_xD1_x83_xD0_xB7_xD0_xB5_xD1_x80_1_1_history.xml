@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kind="class" language="C#" prot="public">
+    <compoundname>Браузер::History</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6ab3e3b713ac2753b3f2963e3670670c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Браузер.History.URL</definition>
+        <argsstring></argsstring>
+        <name>URL</name>
+        <qualifiedname>Браузер.History.URL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="History.cs" line="12" column="23" bodyfile="History.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a406e533b4761c6b3fedc0016df0dfd7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Браузер.History.Time</definition>
+        <argsstring></argsstring>
+        <name>Time</name>
+        <qualifiedname>Браузер.History.Time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="History.cs" line="13" column="23" bodyfile="History.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6fb3fb17b42d67e16e882493ce19fbf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Браузер.History.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>Браузер.History.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="History.cs" line="14" column="23" bodyfile="History.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="History.cs" line="10" column="11" bodyfile="History.cs" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6fb3fb17b42d67e16e882493ce19fbf1" prot="public" virt="non-virtual"><scope>Браузер::History</scope><name>Date</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a406e533b4761c6b3fedc0016df0dfd7d" prot="public" virt="non-virtual"><scope>Браузер::History</scope><name>Time</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6ab3e3b713ac2753b3f2963e3670670c" prot="public" virt="non-virtual"><scope>Браузер::History</scope><name>URL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

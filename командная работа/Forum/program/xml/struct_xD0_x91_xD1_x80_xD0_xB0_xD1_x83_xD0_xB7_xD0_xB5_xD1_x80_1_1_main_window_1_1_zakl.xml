@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl" kind="struct" language="C#" prot="private">
+    <compoundname>Браузер::MainWindow::Zakl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl_1a9ccae23d2f0f5b0f1eac9897d3256040" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Браузер.MainWindow.Zakl.URL</definition>
+        <argsstring></argsstring>
+        <name>URL</name>
+        <qualifiedname>Браузер.MainWindow.Zakl.URL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="52" column="27" bodyfile="MainWindow.xaml.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MainWindow.xaml.cs" line="50" column="9" bodyfile="MainWindow.xaml.cs" bodystart="51" bodyend="53"/>
+    <listofallmembers>
+      <member refid="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl_1a9ccae23d2f0f5b0f1eac9897d3256040" prot="public" virt="non-virtual"><scope>Браузер::MainWindow::Zakl</scope><name>URL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

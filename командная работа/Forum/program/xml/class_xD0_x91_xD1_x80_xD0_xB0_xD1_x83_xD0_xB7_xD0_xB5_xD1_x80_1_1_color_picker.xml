@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker" kind="class" language="C#" prot="public">
+    <compoundname>Браузер::ColorPicker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a68792a064b9004e3253054d353ef451f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kindref="compound">MainWindow</ref></type>
+        <definition>MainWindow Браузер.ColorPicker.mainWindow</definition>
+        <argsstring></argsstring>
+        <name>mainWindow</name>
+        <qualifiedname>Браузер.ColorPicker.mainWindow</qualifiedname>
+        <initializer>= new <ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kindref="compound">MainWindow</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="24" column="20" bodyfile="ColorPicker.xaml.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac15e5176cda83a88daf090915917dffb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Браузер.ColorPicker.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>Браузер.ColorPicker.path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="48" column="23" bodyfile="ColorPicker.xaml.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a0b89d8bd425c81d4a440ef85f8b6a4ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Браузер.ColorPicker.ColorPicker</definition>
+        <argsstring>()</argsstring>
+        <name>ColorPicker</name>
+        <qualifiedname>Браузер.ColorPicker.ColorPicker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="26" column="16" bodyfile="ColorPicker.xaml.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6e880d590827e8498e43166a5278f9d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.ColorPicker.ColorPicker_Closing</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>ColorPicker_Closing</name>
+        <qualifiedname>Браузер.ColorPicker.ColorPicker_Closing</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="33" column="22" bodyfile="ColorPicker.xaml.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac0fe87f3642f4cc6553df9c626e8ee78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.ColorPicker.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <qualifiedname>Браузер.ColorPicker.Button_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="38" column="22" bodyfile="ColorPicker.xaml.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6404d53df5e418ea535ce824be5c5083" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.ColorPicker.btOpenFile_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btOpenFile_Click</name>
+        <qualifiedname>Браузер.ColorPicker.btOpenFile_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ColorPicker.xaml.cs" line="49" column="22" bodyfile="ColorPicker.xaml.cs" bodystart="49" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для ColorPicker.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.ColorPicker</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.ColorPicker</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ColorPicker.xaml.cs" line="22" column="19" bodyfile="ColorPicker.xaml.cs" bodystart="23" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6404d53df5e418ea535ce824be5c5083" prot="private" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>btOpenFile_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac0fe87f3642f4cc6553df9c626e8ee78" prot="private" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>Button_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a0b89d8bd425c81d4a440ef85f8b6a4ce" prot="public" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>ColorPicker</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6e880d590827e8498e43166a5278f9d0" prot="private" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>ColorPicker_Closing</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a68792a064b9004e3253054d353ef451f" prot="private" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>mainWindow</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac15e5176cda83a88daf090915917dffb" prot="public" virt="non-virtual"><scope>Браузер::ColorPicker</scope><name>path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

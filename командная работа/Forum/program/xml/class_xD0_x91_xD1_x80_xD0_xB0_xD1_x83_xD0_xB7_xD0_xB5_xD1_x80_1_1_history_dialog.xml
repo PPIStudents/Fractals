@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog" kind="class" language="C#" prot="public">
+    <compoundname>Браузер::HistoryDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa8a8bfdd370c33a721c0b8f2208f377" prot="private" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kindref="compound">History</ref> &gt;</type>
+        <definition>ObservableCollection&lt;History&gt; Браузер.HistoryDialog.histories</definition>
+        <argsstring></argsstring>
+        <name>histories</name>
+        <qualifiedname>Браузер.HistoryDialog.histories</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="25" column="30" bodyfile="HistoryDialog.xaml.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a3ac48dee10dbe9ce78f61e1dbd749dce" prot="private" static="no" mutable="no">
+        <type><ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kindref="compound">History</ref></type>
+        <definition>History Браузер.HistoryDialog.history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <qualifiedname>Браузер.HistoryDialog.history</qualifiedname>
+        <initializer>= new <ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kindref="compound">History</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="28" column="17" bodyfile="HistoryDialog.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a5082b78a8895fbbfb2f612899361b87a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kindref="compound">MainWindow</ref></type>
+        <definition>MainWindow Браузер.HistoryDialog.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <qualifiedname>Браузер.HistoryDialog.window</qualifiedname>
+        <initializer>= new <ref refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kindref="compound">MainWindow</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="30" column="20" bodyfile="HistoryDialog.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a58868dcc37576f7e57b560b1b234ed2f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Браузер.HistoryDialog.nameFile</definition>
+        <argsstring></argsstring>
+        <name>nameFile</name>
+        <qualifiedname>Браузер.HistoryDialog.nameFile</qualifiedname>
+        <initializer>= Directory.GetCurrentDirectory() + @&quot;\History.dat&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="27" column="23" bodyfile="HistoryDialog.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1adc9e3af852924ff073a076764be5d24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Браузер.HistoryDialog.HistoryDialog</definition>
+        <argsstring>()</argsstring>
+        <name>HistoryDialog</name>
+        <qualifiedname>Браузер.HistoryDialog.HistoryDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="32" column="16" bodyfile="HistoryDialog.xaml.cs" bodystart="32" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a2a167d3a9c8aba4c7980f5a6580095b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.HistoryDialog.HistoryDialog_Closing</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>HistoryDialog_Closing</name>
+        <qualifiedname>Браузер.HistoryDialog.HistoryDialog_Closing</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="49" column="22" bodyfile="HistoryDialog.xaml.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1afcc4f7c88976a48a437b2768136af68e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.HistoryDialog.btDeleteElement_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btDeleteElement_Click</name>
+        <qualifiedname>Браузер.HistoryDialog.btDeleteElement_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="54" column="22" bodyfile="HistoryDialog.xaml.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa86130d594e42ad7dee2bcb591493e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.HistoryDialog.btGoHome_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btGoHome_Click</name>
+        <qualifiedname>Браузер.HistoryDialog.btGoHome_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="60" column="22" bodyfile="HistoryDialog.xaml.cs" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a91fa2f5ffdb0a59fb5c568949550ef67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Браузер.HistoryDialog.btCloseAll_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btCloseAll_Click</name>
+        <qualifiedname>Браузер.HistoryDialog.btCloseAll_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HistoryDialog.xaml.cs" line="66" column="22" bodyfile="HistoryDialog.xaml.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для HistoryDialog.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.HistoryDialog</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>Браузер.HistoryDialog</label>
+        <link refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="HistoryDialog.xaml.cs" line="23" column="19" bodyfile="HistoryDialog.xaml.cs" bodystart="24" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a91fa2f5ffdb0a59fb5c568949550ef67" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>btCloseAll_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1afcc4f7c88976a48a437b2768136af68e" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>btDeleteElement_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa86130d594e42ad7dee2bcb591493e6" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>btGoHome_Click</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa8a8bfdd370c33a721c0b8f2208f377" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>histories</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a3ac48dee10dbe9ce78f61e1dbd749dce" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>history</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1adc9e3af852924ff073a076764be5d24a" prot="public" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>HistoryDialog</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a2a167d3a9c8aba4c7980f5a6580095b6" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>HistoryDialog_Closing</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a58868dcc37576f7e57b560b1b234ed2f" prot="public" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>nameFile</name></member>
+      <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a5082b78a8895fbbfb2f612899361b87a" prot="private" virt="non-virtual"><scope>Браузер::HistoryDialog</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

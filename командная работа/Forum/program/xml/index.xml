@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_app" kind="class"><name>Браузер::App</name>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_closable_tab_item" kind="class"><name>Браузер::ClosableTabItem</name>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker" kind="class"><name>Браузер::ColorPicker</name>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a68792a064b9004e3253054d353ef451f" kind="variable"><name>mainWindow</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac15e5176cda83a88daf090915917dffb" kind="variable"><name>path</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a0b89d8bd425c81d4a440ef85f8b6a4ce" kind="function"><name>ColorPicker</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6e880d590827e8498e43166a5278f9d0" kind="function"><name>ColorPicker_Closing</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac0fe87f3642f4cc6553df9c626e8ee78" kind="function"><name>Button_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a6404d53df5e418ea535ce824be5c5083" kind="function"><name>btOpenFile_Click</name></member>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" kind="class"><name>Браузер::History</name>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6ab3e3b713ac2753b3f2963e3670670c" kind="property"><name>URL</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a406e533b4761c6b3fedc0016df0dfd7d" kind="property"><name>Time</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6fb3fb17b42d67e16e882493ce19fbf1" kind="property"><name>Date</name></member>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog" kind="class"><name>Браузер::HistoryDialog</name>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa8a8bfdd370c33a721c0b8f2208f377" kind="variable"><name>histories</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a3ac48dee10dbe9ce78f61e1dbd749dce" kind="variable"><name>history</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a5082b78a8895fbbfb2f612899361b87a" kind="variable"><name>window</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a58868dcc37576f7e57b560b1b234ed2f" kind="variable"><name>nameFile</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1adc9e3af852924ff073a076764be5d24a" kind="function"><name>HistoryDialog</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a2a167d3a9c8aba4c7980f5a6580095b6" kind="function"><name>HistoryDialog_Closing</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1afcc4f7c88976a48a437b2768136af68e" kind="function"><name>btDeleteElement_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1aaa86130d594e42ad7dee2bcb591493e6" kind="function"><name>btGoHome_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog_1a91fa2f5ffdb0a59fb5c568949550ef67" kind="function"><name>btCloseAll_Click</name></member>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" kind="class"><name>Браузер::MainWindow</name>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a95cb6d9db2464702de7c72ae447485f2" kind="variable"><name>histories</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acf9431377a40eaf5ad1dcae933f34178" kind="variable"><name>zakladki</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ab4cfa43e953c264d8f2d8bd0b4cb5da0" kind="variable"><name>nameFile</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4bdd7099ac9f1799e780e66111c228e0" kind="function"><name>MainWindow</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac3d3d11a855b69333f38d5c13d42e459" kind="function"><name>MainWindow_Closing</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a76bde1ed05052f14898b2112b32fc997" kind="function"><name>btUpdate_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1af0841faa8e086193db33a28df142e365" kind="function"><name>btBack_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a77ea373461bd0d10c1bbd16891398d90" kind="function"><name>btForward_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1afbf3e9f72711d46164321d700268e054" kind="function"><name>tbUrl_KeyUp</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac25536e3e68d61b14311eeb4e11d478c" kind="function"><name>Search</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a5fd85f73e4774aa30c5f2857b335cf9d" kind="function"><name>btHistory_SelectionChanged</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a192d1680843a01a6c8082702b1abc024" kind="function"><name>btNew_Tab_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a7e369a688c7ff6ec7926046e44e97e89" kind="function"><name>AddTab</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aaac78d2311fc26805cd225b8f55d5147" kind="function"><name>WebBrowser_Navigated</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1acc12a99fe2316c6b9ab681397a3bc0bc" kind="function"><name>CountingButton_OnClick</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1aea3c301b72af926c01ee2f6774733e55" kind="function"><name>btDelete_Tab_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae9e7d49a7cb0fefe8f37a8bb207be11a" kind="function"><name>PickColor_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4928a327ec7d13d843d621d529967168" kind="function"><name>_History_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a31eaad45daf7f6ab28608e78ed0c62a3" kind="function"><name>btSearch_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4ce22f842a5806b22798346c90088051" kind="function"><name>btAddZaklad_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4e1f4649883ba6d850182586898d4da6" kind="function"><name>btDeleteZaklad_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a9739d00062e567d03fdb644e59f20777" kind="function"><name>btGoForZakl_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ac232eb242cfdda8ffe835c5ddd286763" kind="function"><name>btPrint_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a0ff5db124d92f7447b836fa29bb705de" kind="function"><name>btDuplicate_Click</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ae27c130c1bf69f44c0cb037bd5596cda" kind="function"><name>btDeleteAllTabs_Click</name></member>
+  </compound>
+  <compound refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization" kind="class"><name>Браузер::Serialization</name>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1a947c9316ffcb3a198090cd802f252eea" kind="function"><name>Save</name></member>
+    <member refid="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1af8fe6e538aa7a322ab433442f7c39d24" kind="function"><name>Get&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl" kind="struct"><name>Браузер::MainWindow::Zakl</name>
+    <member refid="struct_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1_1_zakl_1a9ccae23d2f0f5b0f1eac9897d3256040" kind="variable"><name>URL</name></member>
+  </compound>
+  <compound refid="namespace_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80" kind="namespace"><name>Браузер</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_win32" kind="namespace"><name>Microsoft::Win32</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_object_model" kind="namespace"><name>System::Collections::ObjectModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_closable_tab_item_8cs" kind="file"><name>ClosableTabItem.cs</name>
+  </compound>
+  <compound refid="_color_picker_8xaml_8cs" kind="file"><name>ColorPicker.xaml.cs</name>
+  </compound>
+  <compound refid="_history_8cs" kind="file"><name>History.cs</name>
+  </compound>
+  <compound refid="_history_dialog_8xaml_8cs" kind="file"><name>HistoryDialog.xaml.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_serialization_8cs" kind="file"><name>Serialization.cs</name>
+  </compound>
+</doxygenindex>
