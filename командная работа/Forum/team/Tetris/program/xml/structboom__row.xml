@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="structboom__row" kind="struct" language="C++" prot="public">
+    <compoundname>boom_row</compoundname>
+    <includes refid="util_8h" local="no">util.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboom__row_1a4e31844433ad474116ea1bc802d1b9b6" prot="public" static="no" mutable="no">
+        <type>short int</type>
+        <definition>short int boom_row::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>boom_row::pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="26" column="11" bodyfile="util.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboom__row_1ac975430c7a8642779eff7e72ab6b2f23" prot="public" static="no" mutable="no">
+        <type>short int</type>
+        <definition>short int boom_row::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>boom_row::dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="27" column="11" bodyfile="util.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboom__row_1ab8d09c370f6b7f800e46c4815dbe75a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boom_row::boom_row</definition>
+        <argsstring>(void)</argsstring>
+        <name>boom_row</name>
+        <qualifiedname>boom_row::boom_row</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="28" column="1" bodyfile="util.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structboom__row_1ae7e02f010bc8aee36ff6907b1ed7f2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boom_row::boom_row</definition>
+        <argsstring>(int p)</argsstring>
+        <name>boom_row</name>
+        <qualifiedname>boom_row::boom_row</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="29" column="1" bodyfile="util.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="util.h" line="25" column="1" bodyfile="util.h" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structboom__row_1ab8d09c370f6b7f800e46c4815dbe75a1" prot="public" virt="non-virtual"><scope>boom_row</scope><name>boom_row</name></member>
+      <member refid="structboom__row_1ae7e02f010bc8aee36ff6907b1ed7f2e9" prot="public" virt="non-virtual"><scope>boom_row</scope><name>boom_row</name></member>
+      <member refid="structboom__row_1ac975430c7a8642779eff7e72ab6b2f23" prot="public" virt="non-virtual"><scope>boom_row</scope><name>dir</name></member>
+      <member refid="structboom__row_1a4e31844433ad474116ea1bc802d1b9b6" prot="public" virt="non-virtual"><scope>boom_row</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

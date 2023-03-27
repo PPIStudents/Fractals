@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structfigure__t" xml:lang="en-US">
+<title>figure_t Struct Reference</title>
+<indexterm><primary>figure_t</primary></indexterm>
+<para>
+<computeroutput>#include &lt;util.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int * <link linkend="_structfigure__t_1aa6abae9e31f7998318b47c973010833f">operator[]</link> (int i)</para>
+</listitem>
+            <listitem><para>const int * <link linkend="_structfigure__t_1a5101c8d871d33f2307920ba30b0aca7a">operator[]</link> (int i) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_structfigure__t_1a289dee5b66a91a776f16495b4cde188c">figure</link> [<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>][<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>]</para>
+</listitem>
+            <listitem><para>int <link linkend="_structfigure__t_1ac24a73ed5ab308876ebb22ad4003cf49">size</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_structfigure__t_1aa6abae9e31f7998318b47c973010833f"/><section>
+    <title>operator[]()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>figure_t</secondary></indexterm>
+<indexterm><primary>figure_t</primary><secondary>operator[]</secondary></indexterm>
+<para><computeroutput>int * figure_t::operator[] (int i)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structfigure__t_1a5101c8d871d33f2307920ba30b0aca7a"/><section>
+    <title>operator[]()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>figure_t</secondary></indexterm>
+<indexterm><primary>figure_t</primary><secondary>operator[]</secondary></indexterm>
+<para><computeroutput>const int * figure_t::operator[] (int i) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structfigure__t_1a289dee5b66a91a776f16495b4cde188c"/><section>
+    <title>figure</title>
+<indexterm><primary>figure</primary><secondary>figure_t</secondary></indexterm>
+<indexterm><primary>figure_t</primary><secondary>figure</secondary></indexterm>
+<para><computeroutput>int figure_t::figure[<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>][<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>]</computeroutput></para></section>
+<anchor xml:id="_structfigure__t_1ac24a73ed5ab308876ebb22ad4003cf49"/><section>
+    <title>size</title>
+<indexterm><primary>size</primary><secondary>figure_t</secondary></indexterm>
+<indexterm><primary>figure_t</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>int figure_t::size</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+<link linkend="_util_8h">util.h</link></section>
+</section>

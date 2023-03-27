@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classpod__block" kind="class" language="C++" prot="public">
+    <compoundname>pod_block</compoundname>
+    <includes refid="util_8h" local="no">util.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>_max_</declname>
+        <defname>_max_</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpod__block_1af4b1fd430c5197498b14e5708b866ce7" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T pod_block&lt; T, _max_ &gt;::arr[_max_]</definition>
+        <argsstring>[_max_]</argsstring>
+        <name>arr</name>
+        <qualifiedname>pod_block::arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="79" column="5" bodyfile="util.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpod__block_1a8c2738135d6a0bb0ab66114ade82c636" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pod_block&lt; T, _max_ &gt;::cnt</definition>
+        <argsstring></argsstring>
+        <name>cnt</name>
+        <qualifiedname>pod_block::cnt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="80" column="5" bodyfile="util.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpod__block_1a3bd279469c34e93882f1ac5411e52ebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>pod_block&lt; T, _max_ &gt;::pod_block</definition>
+        <argsstring>(void)</argsstring>
+        <name>pod_block</name>
+        <qualifiedname>pod_block::pod_block</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="82" column="1" bodyfile="util.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a8d271a60a371d5ce7ab5edce64f0e66e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>pod_block&lt; T, _max_ &gt;::~pod_block</definition>
+        <argsstring>()</argsstring>
+        <name>~pod_block</name>
+        <qualifiedname>pod_block::~pod_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="83" column="1" bodyfile="util.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a2767dfd1cf7e4f6e10228e7a0509f8db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pod_block&lt; T, _max_ &gt;::pod_block</definition>
+        <argsstring>(const pod_block &amp;)</argsstring>
+        <name>pod_block</name>
+        <qualifiedname>pod_block::pod_block</qualifiedname>
+        <param>
+          <type>const <ref refid="classpod__block" kindref="compound">pod_block</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a787028e84778afde35dc9fdf02f7860d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classpod__block" kindref="compound">pod_block</ref> &amp;</type>
+        <definition>pod_block &amp; pod_block&lt; T, _max_ &gt;::operator=</definition>
+        <argsstring>(const pod_block &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>pod_block::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classpod__block" kindref="compound">pod_block</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="86" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1aca6c4e69f559bb75f43efedfabd99907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void pod_block&lt; T, _max_ &gt;::add</definition>
+        <argsstring>(const T &amp;val)</argsstring>
+        <name>add</name>
+        <qualifiedname>pod_block::add</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="89" column="6" bodyfile="util.h" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1ac71433f644fa6578c453df844b405b1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void pod_block&lt; T, _max_ &gt;::removeAt</definition>
+        <argsstring>(size_t index)</argsstring>
+        <name>removeAt</name>
+        <qualifiedname>pod_block::removeAt</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="94" column="6" bodyfile="util.h" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void pod_block&lt; T, _max_ &gt;::reset</definition>
+        <argsstring>(void)</argsstring>
+        <name>reset</name>
+        <qualifiedname>pod_block::reset</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="101" column="6" bodyfile="util.h" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1ab6bfb1d977acd3fb71c5e8181f020d03" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int pod_block&lt; T, _max_ &gt;::getSize</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getSize</name>
+        <qualifiedname>pod_block::getSize</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="105" column="5" bodyfile="util.h" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a368a7083aaea6fcf6d1d8ac0fc9e5532" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int pod_block&lt; T, _max_ &gt;::getMaxSize</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getMaxSize</name>
+        <qualifiedname>pod_block::getMaxSize</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="109" column="5" bodyfile="util.h" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a73dd6ffc56174e615b7804ac556caa5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; pod_block&lt; T, _max_ &gt;::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>pod_block::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="113" column="3" bodyfile="util.h" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__block_1a52baa1984739546e6bdf4a44d9be2eaa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; pod_block&lt; T, _max_ &gt;::operator[]</definition>
+        <argsstring>(int i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>pod_block::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="117" column="9" bodyfile="util.h" bodystart="117" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="util.h" line="77" column="1" bodyfile="util.h" bodystart="77" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classpod__block_1aca6c4e69f559bb75f43efedfabd99907" prot="public" virt="non-virtual"><scope>pod_block</scope><name>add</name></member>
+      <member refid="classpod__block_1af4b1fd430c5197498b14e5708b866ce7" prot="private" virt="non-virtual"><scope>pod_block</scope><name>arr</name></member>
+      <member refid="classpod__block_1a8c2738135d6a0bb0ab66114ade82c636" prot="private" virt="non-virtual"><scope>pod_block</scope><name>cnt</name></member>
+      <member refid="classpod__block_1a368a7083aaea6fcf6d1d8ac0fc9e5532" prot="public" virt="non-virtual"><scope>pod_block</scope><name>getMaxSize</name></member>
+      <member refid="classpod__block_1ab6bfb1d977acd3fb71c5e8181f020d03" prot="public" virt="non-virtual"><scope>pod_block</scope><name>getSize</name></member>
+      <member refid="classpod__block_1a787028e84778afde35dc9fdf02f7860d" prot="public" virt="non-virtual"><scope>pod_block</scope><name>operator=</name></member>
+      <member refid="classpod__block_1a73dd6ffc56174e615b7804ac556caa5b" prot="public" virt="non-virtual"><scope>pod_block</scope><name>operator[]</name></member>
+      <member refid="classpod__block_1a52baa1984739546e6bdf4a44d9be2eaa" prot="public" virt="non-virtual"><scope>pod_block</scope><name>operator[]</name></member>
+      <member refid="classpod__block_1a3bd279469c34e93882f1ac5411e52ebe" prot="public" virt="non-virtual"><scope>pod_block</scope><name>pod_block</name></member>
+      <member refid="classpod__block_1a2767dfd1cf7e4f6e10228e7a0509f8db" prot="public" virt="non-virtual"><scope>pod_block</scope><name>pod_block</name></member>
+      <member refid="classpod__block_1ac71433f644fa6578c453df844b405b1b" prot="public" virt="non-virtual"><scope>pod_block</scope><name>removeAt</name></member>
+      <member refid="classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0" prot="public" virt="non-virtual"><scope>pod_block</scope><name>reset</name></member>
+      <member refid="classpod__block_1a8d271a60a371d5ce7ab5edce64f0e66e" prot="public" virt="non-virtual"><scope>pod_block</scope><name>~pod_block</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

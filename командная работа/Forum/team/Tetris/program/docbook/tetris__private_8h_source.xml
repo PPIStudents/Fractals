@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_tetris__private_8h_source" xml:lang="en-US">
+<title>tetris_private.h</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 <emphasis role="comment">/*&#32;THIS&#32;FILE&#32;WILL&#32;BE&#32;OVERWRITTEN&#32;BY&#32;DEV-C++&#32;*/</emphasis>
+2 <emphasis role="comment">/*&#32;DO&#32;NOT&#32;EDIT&#32;!&#32;*/</emphasis>
+3 
+4 <emphasis role="preprocessor">#ifndef&#32;TETRIS_PRIVATE_H</emphasis>
+5 <emphasis role="preprocessor">#define&#32;TETRIS_PRIVATE_H</emphasis>
+6 
+7 <emphasis role="comment">/*&#32;VERSION&#32;DEFINITIONS&#32;*/</emphasis>
+8 <emphasis role="preprocessor">#define&#32;VER_STRING&#32;&#32;&quot;0.1.1.1&quot;</emphasis>
+9 <emphasis role="preprocessor">#define&#32;VER_MAJOR&#32;&#32;&#32;0</emphasis>
+10 <emphasis role="preprocessor">#define&#32;VER_MINOR&#32;&#32;&#32;1</emphasis>
+11 <emphasis role="preprocessor">#define&#32;VER_RELEASE&#32;1</emphasis>
+12 <emphasis role="preprocessor">#define&#32;VER_BUILD&#32;&#32;&#32;1</emphasis>
+13 <emphasis role="preprocessor">#define&#32;COMPANY_NAME&#32;&#32;&#32;&#32;&quot;&quot;</emphasis>
+14 <emphasis role="preprocessor">#define&#32;FILE_VERSION&#32;&#32;&#32;&#32;&quot;&quot;</emphasis>
+15 <emphasis role="preprocessor">#define&#32;FILE_DESCRIPTION&#32;&#32;&#32;&#32;&quot;Developed&#32;using&#32;the&#32;Dev-C++&#32;IDE&quot;</emphasis>
+16 <emphasis role="preprocessor">#define&#32;INTERNAL_NAME&#32;&#32;&#32;&quot;&quot;</emphasis>
+17 <emphasis role="preprocessor">#define&#32;LEGAL_COPYRIGHT&#32;&quot;&quot;</emphasis>
+18 <emphasis role="preprocessor">#define&#32;LEGAL_TRADEMARKS&#32;&#32;&#32;&#32;&quot;&quot;</emphasis>
+19 <emphasis role="preprocessor">#define&#32;ORIGINAL_FILENAME&#32;&#32;&#32;&quot;&quot;</emphasis>
+20 <emphasis role="preprocessor">#define&#32;PRODUCT_NAME&#32;&#32;&#32;&#32;&quot;&quot;</emphasis>
+21 <emphasis role="preprocessor">#define&#32;PRODUCT_VERSION&#32;&quot;&quot;</emphasis>
+22 
+23 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*TETRIS_PRIVATE_H*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

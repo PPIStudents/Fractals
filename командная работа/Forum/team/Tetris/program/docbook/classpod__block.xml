@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classpod__block" xml:lang="en-US">
+<title>pod_block&lt; T, _max_ &gt; Class Template Reference</title>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;util.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classpod__block_1a3bd279469c34e93882f1ac5411e52ebe">pod_block</link> (void)</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__block_1a8d271a60a371d5ce7ab5edce64f0e66e">~pod_block</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__block_1a2767dfd1cf7e4f6e10228e7a0509f8db">pod_block</link> (const <link linkend="_classpod__block">pod_block</link> &amp;)</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__block">pod_block</link> &amp; <link linkend="_classpod__block_1a787028e84778afde35dc9fdf02f7860d">operator=</link> (const <link linkend="_classpod__block">pod_block</link> &amp;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classpod__block_1aca6c4e69f559bb75f43efedfabd99907">add</link> (const T &amp;val)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classpod__block_1ac71433f644fa6578c453df844b405b1b">removeAt</link> (size_t index)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0">reset</link> (void)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classpod__block_1ab6bfb1d977acd3fb71c5e8181f020d03">getSize</link> (void) const</para>
+</listitem>
+            <listitem><para>int <link linkend="_classpod__block_1a368a7083aaea6fcf6d1d8ac0fc9e5532">getMaxSize</link> (void) const</para>
+</listitem>
+            <listitem><para>T &amp; <link linkend="_classpod__block_1a73dd6ffc56174e615b7804ac556caa5b">operator[]</link> (int i)</para>
+</listitem>
+            <listitem><para>const T &amp; <link linkend="_classpod__block_1a52baa1984739546e6bdf4a44d9be2eaa">operator[]</link> (int i) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classpod__block_1a3bd279469c34e93882f1ac5411e52ebe"/><section>
+    <title>pod_block()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>pod_block</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>pod_block</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput><link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;<link linkend="_classpod__block">::pod_block</link> (void )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a8d271a60a371d5ce7ab5edce64f0e66e"/><section>
+    <title>~pod_block()</title>
+<indexterm><primary>~pod_block</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>~pod_block</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput><link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::~<link linkend="_classpod__block">pod_block</link> ( )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a2767dfd1cf7e4f6e10228e7a0509f8db"/><section>
+    <title>pod_block()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>pod_block</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>pod_block</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput><link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;<link linkend="_classpod__block">::pod_block</link> (const <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt; &amp; )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classpod__block_1aca6c4e69f559bb75f43efedfabd99907"/><section>
+    <title>add()</title>
+<indexterm><primary>add</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>add</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>void <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::add (const T &amp; val)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a368a7083aaea6fcf6d1d8ac0fc9e5532"/><section>
+    <title>getMaxSize()</title>
+<indexterm><primary>getMaxSize</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>getMaxSize</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>int <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::getMaxSize (void ) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1ab6bfb1d977acd3fb71c5e8181f020d03"/><section>
+    <title>getSize()</title>
+<indexterm><primary>getSize</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>getSize</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>int <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::getSize (void ) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a787028e84778afde35dc9fdf02f7860d"/><section>
+    <title>operator=()</title>
+<indexterm><primary>operator=</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>operator=</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput><link linkend="_classpod__block">pod_block</link> &amp; <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::operator= (const <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt; &amp; )</computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a73dd6ffc56174e615b7804ac556caa5b"/><section>
+    <title>operator[]()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>operator[]</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>T &amp; <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::operator[] (int i)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a52baa1984739546e6bdf4a44d9be2eaa"/><section>
+    <title>operator[]()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>operator[]</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>const T &amp; <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::operator[] (int i) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1ac71433f644fa6578c453df844b405b1b"/><section>
+    <title>removeAt()</title>
+<indexterm><primary>removeAt</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>removeAt</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>void <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::removeAt (size_t index)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0"/><section>
+    <title>reset()</title>
+<indexterm><primary>reset</primary><secondary>pod_block&lt; T, _max_ &gt;</secondary></indexterm>
+<indexterm><primary>pod_block&lt; T, _max_ &gt;</primary><secondary>reset</secondary></indexterm>
+<computeroutput>template&lt;typename T , int _max_&gt; </computeroutput><para><computeroutput>void <link linkend="_classpod__block">pod_block</link>&lt; T, _max_ &gt;::reset (void )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_util_8h">util.h</link></section>
+</section>

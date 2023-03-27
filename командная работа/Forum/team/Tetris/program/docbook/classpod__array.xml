@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classpod__array" xml:lang="en-US">
+<title>pod_array&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>pod_array&lt; T &gt;</primary></indexterm>
+<para>
+<computeroutput>#include &lt;util.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classpod__array_1ad868ed5c343b59c25dcec71c1801f613">pod_array</link> (void)</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__array_1ab996d48f7d5ab64aeaa536028a0d0584">pod_array</link> (const <link linkend="_classpod__array">pod_array</link> &amp;)</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__array_1a609bcffa13ec365908e6d2a5eb021123">~pod_array</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classpod__array">pod_array</link> &amp; <link linkend="_classpod__array_1ab66a73f4bb686f74e1501bed48d34634">operator=</link> (const <link linkend="_classpod__array">pod_array</link> &amp;)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_classpod__array_1a09e6a569b4efa78ba43ec47c892329fd">setSize</link> (size_t n)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classpod__array_1ac73abeb187fd24ffe143878e878f059d">clear</link> (void)</para>
+</listitem>
+            <listitem><para>size_t <link linkend="_classpod__array_1a2ac03d9f2482f326134a8e0327d52ff7">getSize</link> (void) const</para>
+</listitem>
+            <listitem><para>T &amp; <link linkend="_classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2">operator[]</link> (size_t i)</para>
+</listitem>
+            <listitem><para>const T &amp; <link linkend="_classpod__array_1a25a8a70541e9c7076056444da53e7985">operator[]</link> (size_t i) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classpod__array_1ad868ed5c343b59c25dcec71c1801f613"/><section>
+    <title>pod_array()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>pod_array</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>pod_array</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classpod__array">pod_array</link>&lt; T &gt;<link linkend="_classpod__array">::pod_array</link> (void )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__array_1ab996d48f7d5ab64aeaa536028a0d0584"/><section>
+    <title>pod_array()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>pod_array</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>pod_array</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classpod__array">pod_array</link>&lt; T &gt;<link linkend="_classpod__array">::pod_array</link> (const <link linkend="_classpod__array">pod_array</link>&lt; T &gt; &amp; )</computeroutput></para></section>
+<anchor xml:id="_classpod__array_1a609bcffa13ec365908e6d2a5eb021123"/><section>
+    <title>~pod_array()</title>
+<indexterm><primary>~pod_array</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>~pod_array</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classpod__array">pod_array</link>&lt; T &gt;::~<link linkend="_classpod__array">pod_array</link> ( )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classpod__array_1ac73abeb187fd24ffe143878e878f059d"/><section>
+    <title>clear()</title>
+<indexterm><primary>clear</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>clear</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>void <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::clear (void )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__array_1a2ac03d9f2482f326134a8e0327d52ff7"/><section>
+    <title>getSize()</title>
+<indexterm><primary>getSize</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>getSize</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>size_t <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::getSize (void ) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__array_1ab66a73f4bb686f74e1501bed48d34634"/><section>
+    <title>operator=()</title>
+<indexterm><primary>operator=</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>operator=</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput><link linkend="_classpod__array">pod_array</link> &amp; <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::operator= (const <link linkend="_classpod__array">pod_array</link>&lt; T &gt; &amp; )</computeroutput></para></section>
+<anchor xml:id="_classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2"/><section>
+    <title>operator[]()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>operator[]</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>T &amp; <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::operator[] (size_t i)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__array_1a25a8a70541e9c7076056444da53e7985"/><section>
+    <title>operator[]()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>operator[]</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>operator[]</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>const T &amp; <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::operator[] (size_t i) const<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpod__array_1a09e6a569b4efa78ba43ec47c892329fd"/><section>
+    <title>setSize()</title>
+<indexterm><primary>setSize</primary><secondary>pod_array&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>pod_array&lt; T &gt;</primary><secondary>setSize</secondary></indexterm>
+<computeroutput>template&lt;typename T &gt; </computeroutput><para><computeroutput>bool <link linkend="_classpod__array">pod_array</link>&lt; T &gt;::setSize (size_t n)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_util_8h">util.h</link></section>
+</section>

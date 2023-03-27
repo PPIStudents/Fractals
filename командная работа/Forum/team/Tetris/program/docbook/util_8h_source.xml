@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_util_8h_source" xml:lang="en-US">
+<title>util.h</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered">1 <emphasis role="comment">//Автор(с):&#32;Кудуштеев&#32;Алексей</emphasis>
+2 <emphasis role="preprocessor">#if!&#32;defined(_UTIL_KUDUSHTEEV_H_)</emphasis>
+3 <emphasis role="preprocessor">#define&#32;_UTIL_KUDUSHTEEV_H_</emphasis>
+4 <emphasis role="preprocessor">#if&#32;defined(_MSC_VER)&#32;&amp;&amp;&#32;_MSC_VER&#32;&gt;&#32;1000</emphasis>
+5 <emphasis role="preprocessor">#pragma&#32;once</emphasis>
+6 <emphasis role="preprocessor">#endif</emphasis>
+7 <emphasis role="preprocessor">#define&#32;&#32;OBJ_SIZE&#32;&#32;&#32;4</emphasis>
+8 
+9 
+10 <emphasis role="keyword">typedef</emphasis>&#32;<emphasis role="keyword">struct&#32;</emphasis>{
+11 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;figure[<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>][<link linkend="_util_8h_1a54a4d3dbd45901e627504e1a4cdbf686">OBJ_SIZE</link>];
+12 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_structfigure__t_1ac24a73ed5ab308876ebb22ad4003cf49">size</link>;
+13 
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>*&#32;operator&#32;[]&#32;(<emphasis role="keywordtype">int</emphasis>&#32;i){
+15 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;figure[i];
+16 &#32;&#32;&#32;&#32;}
+17 
+18 &#32;&#32;&#32;&#32;<emphasis role="keyword">const</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>*&#32;operator&#32;[]&#32;(<emphasis role="keywordtype">int</emphasis>&#32;i)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+19 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;figure[i];
+20 &#32;&#32;&#32;&#32;}
+21 
+22 }&#32;<link linkend="_structfigure__t">figure_t</link>;
+23 
+24 
+25 <emphasis role="keyword">struct&#32;</emphasis><link linkend="_structboom__row">boom_row</link>&#32;{
+26 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">short</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_structboom__row_1a4e31844433ad474116ea1bc802d1b9b6">pos</link>;
+27 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">short</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_structboom__row_1ac975430c7a8642779eff7e72ab6b2f23">dir</link>;
+28 &#32;&#32;&#32;&#32;<link linkend="_structboom__row_1ab8d09c370f6b7f800e46c4815dbe75a1">boom_row</link>(<emphasis role="keywordtype">void</emphasis>){}
+29 &#32;&#32;&#32;&#32;<link linkend="_structboom__row_1ae7e02f010bc8aee36ff6907b1ed7f2e9">boom_row</link>(<emphasis role="keywordtype">int</emphasis>&#32;p):<link linkend="_structboom__row_1a4e31844433ad474116ea1bc802d1b9b6">pos</link>(p),&#32;<link linkend="_structboom__row_1ac975430c7a8642779eff7e72ab6b2f23">dir</link>(0){}&#32;
+30 };
+31 
+32 <emphasis role="comment">//динамический&#32;массив-блок&#32;для&#32;POD-типов</emphasis>
+33 <emphasis role="keyword">template</emphasis>&lt;<emphasis role="keyword">typename</emphasis>&#32;T&gt;
+34 <emphasis role="keyword">class&#32;</emphasis><link linkend="_classpod__array">pod_array</link>&#32;{
+35 <emphasis role="keyword">private</emphasis>:
+36 &#32;&#32;&#32;&#32;T*&#32;&#32;&#32;&#32;&#32;arr;
+37 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">size_t</emphasis>&#32;cnt;
+38 <emphasis role="keyword">public</emphasis>:
+39 &#32;&#32;&#32;&#32;<link linkend="_classpod__array_1ad868ed5c343b59c25dcec71c1801f613">pod_array</link>(<emphasis role="keywordtype">void</emphasis>):arr(NULL),&#32;cnt(0){}
+40 &#32;&#32;&#32;&#32;<link linkend="_classpod__array_1ab996d48f7d5ab64aeaa536028a0d0584">pod_array</link>(<emphasis role="keyword">const</emphasis>&#32;<link linkend="_classpod__array">pod_array</link>&amp;);
+41 &#32;&#32;&#32;&#32;<link linkend="_classpod__array_1a609bcffa13ec365908e6d2a5eb021123">~pod_array</link>()&#32;{&#32;<link linkend="_classpod__array_1ac73abeb187fd24ffe143878e878f059d">clear</link>();&#32;}
+42 
+43 &#32;&#32;&#32;&#32;<link linkend="_classpod__array">pod_array</link>&amp;&#32;<link linkend="_classpod__array_1ab66a73f4bb686f74e1501bed48d34634">operator = </link>(<emphasis role="keyword">const</emphasis>&#32;<link linkend="_classpod__array">pod_array</link>&amp;);
+44 <emphasis role="keyword">public</emphasis>:
+45 
+46 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_classpod__array_1a09e6a569b4efa78ba43ec47c892329fd">setSize</link>(<emphasis role="keywordtype">size_t</emphasis>&#32;n){
+47 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classpod__array_1ac73abeb187fd24ffe143878e878f059d">clear</link>();
+48 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;arr&#32;=&#32;<emphasis role="keyword">reinterpret_cast&lt;</emphasis>T*<emphasis role="keyword">&gt;</emphasis>(&#32;HeapAlloc(GetProcessHeap(),&#32;HEAP_ZERO_MEMORY,&#32;(DWORD)n&#32;*&#32;<emphasis role="keyword">sizeof</emphasis>(T))&#32;);
+49 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(arr&#32;!=&#32;NULL)
+50 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;cnt&#32;=&#32;n;
+51 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;(arr&#32;!=&#32;NULL);
+52 &#32;&#32;&#32;&#32;}
+53 
+54 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classpod__array_1ac73abeb187fd24ffe143878e878f059d">clear</link>(<emphasis role="keywordtype">void</emphasis>){
+55 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(arr&#32;!=&#32;NULL)
+56 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;HeapFree(GetProcessHeap(),&#32;0,&#32;arr);
+57 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;arr&#32;=&#32;NULL;
+58 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;cnt&#32;=&#32;0;
+59 &#32;&#32;&#32;&#32;}
+60 
+61 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">size_t</emphasis>&#32;<link linkend="_classpod__array_1a2ac03d9f2482f326134a8e0327d52ff7">getSize</link>(<emphasis role="keywordtype">void</emphasis>)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+62 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;cnt;
+63 &#32;&#32;&#32;&#32;}
+64 
+65 &#32;&#32;&#32;&#32;T&amp;&#32;<link linkend="_classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2">operator [] </link>(<emphasis role="keywordtype">size_t</emphasis>&#32;i){
+66 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;arr[i];
+67 &#32;&#32;&#32;&#32;}
+68 
+69 &#32;&#32;&#32;&#32;<emphasis role="keyword">const</emphasis>&#32;T&amp;&#32;<link linkend="_classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2">operator [] </link>(<emphasis role="keywordtype">size_t</emphasis>&#32;i)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+70 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;arr[i];
+71 &#32;&#32;&#32;&#32;}
+72 };
+73 
+74 
+75 <emphasis role="comment">//статический&#32;массив-блок&#32;для&#32;POD-типов</emphasis>
+76 <emphasis role="keyword">template</emphasis>&lt;<emphasis role="keyword">typename</emphasis>&#32;T,&#32;<emphasis role="keywordtype">int</emphasis>&#32;_max_&gt;
+77 <emphasis role="keyword">class&#32;</emphasis><link linkend="_classpod__block">pod_block</link>&#32;{
+78 <emphasis role="keyword">private</emphasis>:
+79 &#32;&#32;&#32;&#32;T&#32;&#32;&#32;arr[_max_];
+80 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;cnt;
+81 <emphasis role="keyword">public</emphasis>:
+82 &#32;&#32;&#32;&#32;<link linkend="_classpod__block_1a3bd279469c34e93882f1ac5411e52ebe">pod_block</link>(<emphasis role="keywordtype">void</emphasis>):cnt(0){}
+83 &#32;&#32;&#32;&#32;<link linkend="_classpod__block_1a8d271a60a371d5ce7ab5edce64f0e66e">~pod_block</link>()&#32;{&#32;<link linkend="_classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0">reset</link>();&#32;}
+84 
+85 &#32;&#32;&#32;&#32;<link linkend="_classpod__block_1a2767dfd1cf7e4f6e10228e7a0509f8db">pod_block</link>(<emphasis role="keyword">const</emphasis>&#32;<link linkend="_classpod__block">pod_block</link>&amp;);
+86 &#32;&#32;&#32;&#32;<link linkend="_classpod__block">pod_block</link>&amp;&#32;<link linkend="_classpod__block_1a787028e84778afde35dc9fdf02f7860d">operator = </link>(<emphasis role="keyword">const</emphasis>&#32;<link linkend="_classpod__block">pod_block</link>&amp;);
+87 <emphasis role="keyword">public</emphasis>:
+88 
+89 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classpod__block_1aca6c4e69f559bb75f43efedfabd99907">add</link>(<emphasis role="keyword">const</emphasis>&#32;T&amp;&#32;val){
+90 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(cnt&#32;&lt;&#32;_max_)
+91 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;arr[cnt++]&#32;=&#32;val;
+92 &#32;&#32;&#32;&#32;}
+93 
+94 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classpod__block_1ac71433f644fa6578c453df844b405b1b">removeAt</link>(<emphasis role="keywordtype">size_t</emphasis>&#32;index){
+95 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(index&#32;&lt;&#32;cnt){
+96 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;memcpy(&amp;arr[index],&#32;&amp;arr[index&#32;+&#32;1],&#32;(cnt&#32;-&#32;(index&#32;+&#32;1))&#32;*&#32;<emphasis role="keyword">sizeof</emphasis>(T));
+97 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;--cnt;
+98 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+99 &#32;&#32;&#32;&#32;}
+100 
+101 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classpod__block_1a4cf3048c524b3a94d9e3c1c9fd4752d0">reset</link>(<emphasis role="keywordtype">void</emphasis>){
+102 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;cnt&#32;=&#32;0;
+103 &#32;&#32;&#32;&#32;}
+104 
+105 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classpod__block_1ab6bfb1d977acd3fb71c5e8181f020d03">getSize</link>(<emphasis role="keywordtype">void</emphasis>)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+106 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;cnt;
+107 &#32;&#32;&#32;&#32;}
+108 
+109 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classpod__block_1a368a7083aaea6fcf6d1d8ac0fc9e5532">getMaxSize</link>(<emphasis role="keywordtype">void</emphasis>)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+110 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;_max_;
+111 &#32;&#32;&#32;&#32;}
+112 
+113 &#32;&#32;&#32;&#32;T&amp;&#32;<link linkend="_classpod__block_1a73dd6ffc56174e615b7804ac556caa5b">operator [] </link>(<emphasis role="keywordtype">int</emphasis>&#32;i){
+114 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;arr[i];
+115 &#32;&#32;&#32;&#32;}
+116 
+117 &#32;&#32;&#32;&#32;<emphasis role="keyword">const</emphasis>&#32;T&amp;&#32;<link linkend="_classpod__block_1a73dd6ffc56174e615b7804ac556caa5b">operator [] </link>(<emphasis role="keywordtype">int</emphasis>&#32;i)<emphasis role="keyword">&#32;const&#32;</emphasis>{
+118 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;arr[i];
+119 &#32;&#32;&#32;&#32;}
+120 };
+121 
+122 
+123 <emphasis role="keyword">template</emphasis>&lt;<emphasis role="keyword">typename</emphasis>&#32;T&gt;
+124 <emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a644a5a372f9b18ed4463aff44e371f0c">swap_value</link>(T&amp;&#32;a,&#32;T&amp;&#32;b){
+125 &#32;&#32;&#32;&#32;T&#32;t&#32;=&#32;a;
+126 &#32;&#32;&#32;&#32;a&#32;=&#32;b;
+127 &#32;&#32;&#32;&#32;b&#32;=&#32;t;
+128 }
+129 
+130 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a7f301b7d82e7e878a6d3b4fdc89e409b">figure_size</link>(<emphasis role="keyword">const</emphasis>&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;figure,&#32;LPRECT&#32;prc,&#32;<emphasis role="keywordtype">int</emphasis>&#32;size);
+131 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_util_8h_1a96bc79472b0ef10a69525637b77652fd">field_remove</link>(<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS],&#32;<emphasis role="keywordtype">bool</emphasis>&#32;line_erase&#32;=&#32;<emphasis role="keyword">false</emphasis>,&#32;<link linkend="_classpod__block">pod_block&lt;boom_row, FIELD_ROWS&gt;</link>*&#32;booms&#32;=&#32;NULL);
+132 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;&#32;<link linkend="_util_8h_1afaf3cf544b4fe82e031ce536fbd42f78">field_find_line</link>(<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS],&#32;<emphasis role="keywordtype">int</emphasis>&amp;&#32;last);
+133 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1ae34222375b8a6a2a7d1a129489e2c5ac">figure_put_field</link>(<emphasis role="keywordtype">int</emphasis>&#32;x,&#32;<emphasis role="keywordtype">int</emphasis>&#32;y,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;figure,&#32;<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS]);
+134 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_util_8h_1a4010b92a93fc6239f1cc6cf213f5c425">is_move_horz</link>(<emphasis role="keywordtype">int</emphasis>&#32;x,&#32;<emphasis role="keywordtype">int</emphasis>&#32;y,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;fg,&#32;<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS],&#32;<emphasis role="keywordtype">int</emphasis>&#32;velocity,&#32;<emphasis role="keywordtype">bool</emphasis>&#32;left);
+135 <emphasis role="keyword">extern</emphasis>&#32;BOOL&#32;<link linkend="_util_8h_1ae2af2e4dfced0dbcaf04978c90b2fc1c">is_move_down</link>(<emphasis role="keywordtype">int</emphasis>&#32;x,&#32;<emphasis role="keywordtype">int</emphasis>&#32;y,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;figure,&#32;<emphasis role="keywordtype">int</emphasis>&#32;step,&#32;<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS]);
+136 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_util_8h_1a8bb3704a2eaa84bc97dc1f497eb15217">figure_rotate</link>(<emphasis role="keywordtype">int</emphasis>&#32;x,&#32;<emphasis role="keywordtype">int</emphasis>&#32;y,&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;figure,&#32;<emphasis role="keywordtype">int</emphasis>&#32;field[][FIELD_COLS]);
+137 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a6f0b48cd728baaf5dbf7a80535a96225">figure_set</link>(<link linkend="_structfigure__t">figure_t</link>&amp;&#32;src,&#32;<emphasis role="keywordtype">int</emphasis>&#32;val);
+138 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a8647f99c56b7396f2c858a366936c5bc">figure_reverse_horz</link>(<link linkend="_structfigure__t">figure_t</link>&amp;&#32;src);
+139 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1aa01b520028a67fd9b09d9ba7b1a3308d">figure_reverse_vert</link>(<link linkend="_structfigure__t">figure_t</link>&amp;&#32;src);
+140 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a2845e09fef63a9ff3609366417723ffd">figure_transponse</link>(<link linkend="_structfigure__t">figure_t</link>&amp;&#32;dst,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_structfigure__t">figure_t</link>&amp;&#32;src);
+141 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_util_8h_1a2845e09fef63a9ff3609366417723ffd">figure_transponse</link>(<link linkend="_structfigure__t">figure_t</link>&amp;&#32;src);
+142 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_util_8h_1a1f255e45d77b9a134c9d4e83168dbae0">figures_load</link>(<link linkend="_classpod__array">pod_array&lt;figure_t&gt;</link>&amp;&#32;fgs,&#32;HINSTANCE&#32;hinst,&#32;LPCWSTR&#32;filename,&#32;LPCWSTR&#32;type&#32;=&#32;NULL);
+143 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>*&#32;<emphasis role="keyword">operator</emphasis>&#32;<emphasis role="keyword">new</emphasis>&#32;(<emphasis role="keywordtype">size_t</emphasis>&#32;size);
+144 <emphasis role="keyword">extern</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;&#32;<emphasis role="keyword">operator</emphasis>&#32;<emphasis role="keyword">delete</emphasis>&#32;(<emphasis role="keywordtype">void</emphasis>*&#32;p);
+145 <emphasis role="preprocessor">#endif</emphasis>
+</programlisting></section>

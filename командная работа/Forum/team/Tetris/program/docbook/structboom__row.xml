@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_structboom__row" xml:lang="en-US">
+<title>boom_row Struct Reference</title>
+<indexterm><primary>boom_row</primary></indexterm>
+<para>
+<computeroutput>#include &lt;util.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_structboom__row_1ab8d09c370f6b7f800e46c4815dbe75a1">boom_row</link> (void)</para>
+</listitem>
+            <listitem><para><link linkend="_structboom__row_1ae7e02f010bc8aee36ff6907b1ed7f2e9">boom_row</link> (int p)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>short int <link linkend="_structboom__row_1a4e31844433ad474116ea1bc802d1b9b6">pos</link></para>
+</listitem>
+            <listitem><para>short int <link linkend="_structboom__row_1ac975430c7a8642779eff7e72ab6b2f23">dir</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_structboom__row_1ab8d09c370f6b7f800e46c4815dbe75a1"/><section>
+    <title>boom_row()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>boom_row</primary><secondary>boom_row</secondary></indexterm>
+<indexterm><primary>boom_row</primary><secondary>boom_row</secondary></indexterm>
+<para><computeroutput>boom_row::boom_row (void )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_structboom__row_1ae7e02f010bc8aee36ff6907b1ed7f2e9"/><section>
+    <title>boom_row()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>boom_row</primary><secondary>boom_row</secondary></indexterm>
+<indexterm><primary>boom_row</primary><secondary>boom_row</secondary></indexterm>
+<para><computeroutput>boom_row::boom_row (int p)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_structboom__row_1ac975430c7a8642779eff7e72ab6b2f23"/><section>
+    <title>dir</title>
+<indexterm><primary>dir</primary><secondary>boom_row</secondary></indexterm>
+<indexterm><primary>boom_row</primary><secondary>dir</secondary></indexterm>
+<para><computeroutput>short int boom_row::dir</computeroutput></para></section>
+<anchor xml:id="_structboom__row_1a4e31844433ad474116ea1bc802d1b9b6"/><section>
+    <title>pos</title>
+<indexterm><primary>pos</primary><secondary>boom_row</secondary></indexterm>
+<indexterm><primary>boom_row</primary><secondary>pos</secondary></indexterm>
+<para><computeroutput>short int boom_row::pos</computeroutput></para></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+<link linkend="_util_8h">util.h</link></section>
+</section>

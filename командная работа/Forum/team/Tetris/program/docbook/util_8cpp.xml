@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_util_8cpp" xml:lang="en-US">
+<title>util.cpp File Reference</title>
+<indexterm><primary>util.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;game.h&quot;<?linebreak?></programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419">figures_load</link> (<link linkend="_classpod__array">pod_array</link>&lt; <link linkend="_structfigure__t">figure_t</link> &gt; &amp;fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a2845e09fef63a9ff3609366417723ffd">figure_transponse</link> (<link linkend="_structfigure__t">figure_t</link> &amp;dst, const <link linkend="_structfigure__t">figure_t</link> &amp;src)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_util_8cpp_1a2845e09fef63a9ff3609366417723ffd"/><section>
+    <title>figure_transponse()</title>
+<indexterm><primary>figure_transponse</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_transponse</secondary></indexterm>
+<para><computeroutput>void figure_transponse (<link linkend="_structfigure__t">figure_t</link> &amp; dst, const <link linkend="_structfigure__t">figure_t</link> &amp; src)</computeroutput></para></section>
+<anchor xml:id="_util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419"/><section>
+    <title>figures_load()</title>
+<indexterm><primary>figures_load</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figures_load</secondary></indexterm>
+<para><computeroutput>bool figures_load (<link linkend="_classpod__array">pod_array</link>&lt; <link linkend="_structfigure__t">figure_t</link> &gt; &amp; fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)</computeroutput></para></section>
+</section>
+</section>

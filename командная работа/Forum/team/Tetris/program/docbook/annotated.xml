@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_structboom__row">boom_row</link><link linkend="_structfigure__t">figure_t</link><link linkend="_classpod__array">pod_array&lt; T &gt;</link><link linkend="_classpod__block">pod_block&lt; T, _max_ &gt;</link></section>

@@ -1,0 +1,162 @@
+\hypertarget{util_8h}{}\doxysection{util.\+h File Reference}
+\label{util_8h}\index{util.h@{util.h}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structboom__row}{boom\+\_\+row}}
+\item 
+class \mbox{\hyperlink{classpod__array}{pod\+\_\+array$<$ T $>$}}
+\item 
+class \mbox{\hyperlink{classpod__block}{pod\+\_\+block$<$ T, \+\_\+max\+\_\+ $>$}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{util_8h_a54a4d3dbd45901e627504e1a4cdbf686}{OBJ\+\_\+\+SIZE}}~4
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{util_8h_a644a5a372f9b18ed4463aff44e371f0c}{swap\+\_\+value}} (T \&a, T \&b)
+\item 
+void \mbox{\hyperlink{util_8h_a7f301b7d82e7e878a6d3b4fdc89e409b}{figure\+\_\+size}} (const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&figure, LPRECT prc, int size)
+\item 
+bool \mbox{\hyperlink{util_8h_a96bc79472b0ef10a69525637b77652fd}{field\+\_\+remove}} (int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]}, bool line\+\_\+erase=false, \mbox{\hyperlink{classpod__block}{pod\+\_\+block}}$<$ \mbox{\hyperlink{structboom__row}{boom\+\_\+row}}, FIELD\+\_\+\+ROWS $>$ $\ast$booms=NULL)
+\item 
+int \mbox{\hyperlink{util_8h_afaf3cf544b4fe82e031ce536fbd42f78}{field\+\_\+find\+\_\+line}} (int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]}, int \&last)
+\item 
+void \mbox{\hyperlink{util_8h_ae34222375b8a6a2a7d1a129489e2c5ac}{figure\+\_\+put\+\_\+field}} (int x, int y, const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&figure, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+bool \mbox{\hyperlink{util_8h_a4010b92a93fc6239f1cc6cf213f5c425}{is\+\_\+move\+\_\+horz}} (int x, int y, const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&fg, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]}, int velocity, bool left)
+\item 
+BOOL \mbox{\hyperlink{util_8h_ae2af2e4dfced0dbcaf04978c90b2fc1c}{is\+\_\+move\+\_\+down}} (int x, int y, const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&figure, int step, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+bool \mbox{\hyperlink{util_8h_a8bb3704a2eaa84bc97dc1f497eb15217}{figure\+\_\+rotate}} (int x, int y, \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&figure, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+void \mbox{\hyperlink{util_8h_a6f0b48cd728baaf5dbf7a80535a96225}{figure\+\_\+set}} (\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&src, int val)
+\item 
+void \mbox{\hyperlink{util_8h_a8647f99c56b7396f2c858a366936c5bc}{figure\+\_\+reverse\+\_\+horz}} (\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&src)
+\item 
+void \mbox{\hyperlink{util_8h_aa01b520028a67fd9b09d9ba7b1a3308d}{figure\+\_\+reverse\+\_\+vert}} (\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&src)
+\item 
+void \mbox{\hyperlink{util_8h_a2845e09fef63a9ff3609366417723ffd}{figure\+\_\+transponse}} (\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&dst, const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&src)
+\item 
+void \mbox{\hyperlink{util_8h_a3b58754044721a7b3e5db1019120127e}{figure\+\_\+transponse}} (\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&src)
+\item 
+bool \mbox{\hyperlink{util_8h_a1f255e45d77b9a134c9d4e83168dbae0}{figures\+\_\+load}} (\mbox{\hyperlink{classpod__array}{pod\+\_\+array}}$<$ \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} $>$ \&fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type=NULL)
+\item 
+void $\ast$ \mbox{\hyperlink{util_8h_a160dcabc54bbecfc69484678cafadb81}{operator new}} (size\+\_\+t size)
+\item 
+void \mbox{\hyperlink{util_8h_a86107594327f3a001230df9802cd4422}{operator delete}} (void $\ast$p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{util_8h_a54a4d3dbd45901e627504e1a4cdbf686}\label{util_8h_a54a4d3dbd45901e627504e1a4cdbf686}} 
+\index{util.h@{util.h}!OBJ\_SIZE@{OBJ\_SIZE}}
+\index{OBJ\_SIZE@{OBJ\_SIZE}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{OBJ\_SIZE}{OBJ\_SIZE}}
+{\footnotesize\ttfamily \#define OBJ\+\_\+\+SIZE~4}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{util_8h_afaf3cf544b4fe82e031ce536fbd42f78}\label{util_8h_afaf3cf544b4fe82e031ce536fbd42f78}} 
+\index{util.h@{util.h}!field\_find\_line@{field\_find\_line}}
+\index{field\_find\_line@{field\_find\_line}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{field\_find\_line()}{field\_find\_line()}}
+{\footnotesize\ttfamily int field\+\_\+find\+\_\+line (\begin{DoxyParamCaption}\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]},  }\item[{int \&}]{last }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a96bc79472b0ef10a69525637b77652fd}\label{util_8h_a96bc79472b0ef10a69525637b77652fd}} 
+\index{util.h@{util.h}!field\_remove@{field\_remove}}
+\index{field\_remove@{field\_remove}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{field\_remove()}{field\_remove()}}
+{\footnotesize\ttfamily bool field\+\_\+remove (\begin{DoxyParamCaption}\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]},  }\item[{bool}]{line\+\_\+erase = {\ttfamily false},  }\item[{\mbox{\hyperlink{classpod__block}{pod\+\_\+block}}$<$ \mbox{\hyperlink{structboom__row}{boom\+\_\+row}}, FIELD\+\_\+\+ROWS $>$ $\ast$}]{booms = {\ttfamily NULL} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_ae34222375b8a6a2a7d1a129489e2c5ac}\label{util_8h_ae34222375b8a6a2a7d1a129489e2c5ac}} 
+\index{util.h@{util.h}!figure\_put\_field@{figure\_put\_field}}
+\index{figure\_put\_field@{figure\_put\_field}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_put\_field()}{figure\_put\_field()}}
+{\footnotesize\ttfamily void figure\+\_\+put\+\_\+field (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{figure,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a8647f99c56b7396f2c858a366936c5bc}\label{util_8h_a8647f99c56b7396f2c858a366936c5bc}} 
+\index{util.h@{util.h}!figure\_reverse\_horz@{figure\_reverse\_horz}}
+\index{figure\_reverse\_horz@{figure\_reverse\_horz}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_reverse\_horz()}{figure\_reverse\_horz()}}
+{\footnotesize\ttfamily void figure\+\_\+reverse\+\_\+horz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_aa01b520028a67fd9b09d9ba7b1a3308d}\label{util_8h_aa01b520028a67fd9b09d9ba7b1a3308d}} 
+\index{util.h@{util.h}!figure\_reverse\_vert@{figure\_reverse\_vert}}
+\index{figure\_reverse\_vert@{figure\_reverse\_vert}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_reverse\_vert()}{figure\_reverse\_vert()}}
+{\footnotesize\ttfamily void figure\+\_\+reverse\+\_\+vert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a8bb3704a2eaa84bc97dc1f497eb15217}\label{util_8h_a8bb3704a2eaa84bc97dc1f497eb15217}} 
+\index{util.h@{util.h}!figure\_rotate@{figure\_rotate}}
+\index{figure\_rotate@{figure\_rotate}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_rotate()}{figure\_rotate()}}
+{\footnotesize\ttfamily bool figure\+\_\+rotate (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{figure,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a6f0b48cd728baaf5dbf7a80535a96225}\label{util_8h_a6f0b48cd728baaf5dbf7a80535a96225}} 
+\index{util.h@{util.h}!figure\_set@{figure\_set}}
+\index{figure\_set@{figure\_set}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_set()}{figure\_set()}}
+{\footnotesize\ttfamily void figure\+\_\+set (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{src,  }\item[{int}]{val }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a7f301b7d82e7e878a6d3b4fdc89e409b}\label{util_8h_a7f301b7d82e7e878a6d3b4fdc89e409b}} 
+\index{util.h@{util.h}!figure\_size@{figure\_size}}
+\index{figure\_size@{figure\_size}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_size()}{figure\_size()}}
+{\footnotesize\ttfamily void figure\+\_\+size (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{figure,  }\item[{LPRECT}]{prc,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a2845e09fef63a9ff3609366417723ffd}\label{util_8h_a2845e09fef63a9ff3609366417723ffd}} 
+\index{util.h@{util.h}!figure\_transponse@{figure\_transponse}}
+\index{figure\_transponse@{figure\_transponse}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_transponse()}{figure\_transponse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void figure\+\_\+transponse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{dst,  }\item[{const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a3b58754044721a7b3e5db1019120127e}\label{util_8h_a3b58754044721a7b3e5db1019120127e}} 
+\index{util.h@{util.h}!figure\_transponse@{figure\_transponse}}
+\index{figure\_transponse@{figure\_transponse}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figure\_transponse()}{figure\_transponse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void figure\+\_\+transponse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a1f255e45d77b9a134c9d4e83168dbae0}\label{util_8h_a1f255e45d77b9a134c9d4e83168dbae0}} 
+\index{util.h@{util.h}!figures\_load@{figures\_load}}
+\index{figures\_load@{figures\_load}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{figures\_load()}{figures\_load()}}
+{\footnotesize\ttfamily bool figures\+\_\+load (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classpod__array}{pod\+\_\+array}}$<$ \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} $>$ \&}]{fgs,  }\item[{HINSTANCE}]{hinst,  }\item[{LPCWSTR}]{filename,  }\item[{LPCWSTR}]{type = {\ttfamily NULL} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_ae2af2e4dfced0dbcaf04978c90b2fc1c}\label{util_8h_ae2af2e4dfced0dbcaf04978c90b2fc1c}} 
+\index{util.h@{util.h}!is\_move\_down@{is\_move\_down}}
+\index{is\_move\_down@{is\_move\_down}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{is\_move\_down()}{is\_move\_down()}}
+{\footnotesize\ttfamily BOOL is\+\_\+move\+\_\+down (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{figure,  }\item[{int}]{step,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a4010b92a93fc6239f1cc6cf213f5c425}\label{util_8h_a4010b92a93fc6239f1cc6cf213f5c425}} 
+\index{util.h@{util.h}!is\_move\_horz@{is\_move\_horz}}
+\index{is\_move\_horz@{is\_move\_horz}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{is\_move\_horz()}{is\_move\_horz()}}
+{\footnotesize\ttfamily bool is\+\_\+move\+\_\+horz (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const \mbox{\hyperlink{structfigure__t}{figure\+\_\+t}} \&}]{fg,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]},  }\item[{int}]{velocity,  }\item[{bool}]{left }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a86107594327f3a001230df9802cd4422}\label{util_8h_a86107594327f3a001230df9802cd4422}} 
+\index{util.h@{util.h}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{operator delete()}{operator delete()}}
+{\footnotesize\ttfamily void operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a160dcabc54bbecfc69484678cafadb81}\label{util_8h_a160dcabc54bbecfc69484678cafadb81}} 
+\index{util.h@{util.h}!operator new@{operator new}}
+\index{operator new@{operator new}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{operator new()}{operator new()}}
+{\footnotesize\ttfamily void $\ast$ operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8h_a644a5a372f9b18ed4463aff44e371f0c}\label{util_8h_a644a5a372f9b18ed4463aff44e371f0c}} 
+\index{util.h@{util.h}!swap\_value@{swap\_value}}
+\index{swap\_value@{swap\_value}!util.h@{util.h}}
+\doxysubsubsection{\texorpdfstring{swap\_value()}{swap\_value()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void swap\+\_\+value (\begin{DoxyParamCaption}\item[{T \&}]{a,  }\item[{T \&}]{b }\end{DoxyParamCaption})}
+

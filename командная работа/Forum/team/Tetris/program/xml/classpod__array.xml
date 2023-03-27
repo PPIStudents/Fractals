@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="classpod__array" kind="class" language="C++" prot="public">
+    <compoundname>pod_array</compoundname>
+    <includes refid="util_8h" local="no">util.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpod__array_1adbea6b9719b0bbf8ea2238178a6b37ce" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* pod_array&lt; T &gt;::arr</definition>
+        <argsstring></argsstring>
+        <name>arr</name>
+        <qualifiedname>pod_array::arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="36" column="7" bodyfile="util.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpod__array_1a0ded1164fdfb1db0aef4da2154f05d84" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pod_array&lt; T &gt;::cnt</definition>
+        <argsstring></argsstring>
+        <name>cnt</name>
+        <qualifiedname>pod_array::cnt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="37" column="8" bodyfile="util.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpod__array_1ad868ed5c343b59c25dcec71c1801f613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>pod_array&lt; T &gt;::pod_array</definition>
+        <argsstring>(void)</argsstring>
+        <name>pod_array</name>
+        <qualifiedname>pod_array::pod_array</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="39" column="1" bodyfile="util.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1ab996d48f7d5ab64aeaa536028a0d0584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pod_array&lt; T &gt;::pod_array</definition>
+        <argsstring>(const pod_array &amp;)</argsstring>
+        <name>pod_array</name>
+        <qualifiedname>pod_array::pod_array</qualifiedname>
+        <param>
+          <type>const <ref refid="classpod__array" kindref="compound">pod_array</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1a609bcffa13ec365908e6d2a5eb021123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>pod_array&lt; T &gt;::~pod_array</definition>
+        <argsstring>()</argsstring>
+        <name>~pod_array</name>
+        <qualifiedname>pod_array::~pod_array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="41" column="1" bodyfile="util.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1ab66a73f4bb686f74e1501bed48d34634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classpod__array" kindref="compound">pod_array</ref> &amp;</type>
+        <definition>pod_array &amp; pod_array&lt; T &gt;::operator=</definition>
+        <argsstring>(const pod_array &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>pod_array::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classpod__array" kindref="compound">pod_array</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="43" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1a09e6a569b4efa78ba43ec47c892329fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool pod_array&lt; T &gt;::setSize</definition>
+        <argsstring>(size_t n)</argsstring>
+        <name>setSize</name>
+        <qualifiedname>pod_array::setSize</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="46" column="6" bodyfile="util.h" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1ac73abeb187fd24ffe143878e878f059d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void pod_array&lt; T &gt;::clear</definition>
+        <argsstring>(void)</argsstring>
+        <name>clear</name>
+        <qualifiedname>pod_array::clear</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="54" column="6" bodyfile="util.h" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1a2ac03d9f2482f326134a8e0327d52ff7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t pod_array&lt; T &gt;::getSize</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getSize</name>
+        <qualifiedname>pod_array::getSize</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="61" column="8" bodyfile="util.h" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; pod_array&lt; T &gt;::operator[]</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>pod_array::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="65" column="3" bodyfile="util.h" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classpod__array_1a25a8a70541e9c7076056444da53e7985" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; pod_array&lt; T &gt;::operator[]</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>pod_array::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.h" line="69" column="9" bodyfile="util.h" bodystart="69" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="util.h" line="34" column="1" bodyfile="util.h" bodystart="34" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classpod__array_1adbea6b9719b0bbf8ea2238178a6b37ce" prot="private" virt="non-virtual"><scope>pod_array</scope><name>arr</name></member>
+      <member refid="classpod__array_1ac73abeb187fd24ffe143878e878f059d" prot="public" virt="non-virtual"><scope>pod_array</scope><name>clear</name></member>
+      <member refid="classpod__array_1a0ded1164fdfb1db0aef4da2154f05d84" prot="private" virt="non-virtual"><scope>pod_array</scope><name>cnt</name></member>
+      <member refid="classpod__array_1a2ac03d9f2482f326134a8e0327d52ff7" prot="public" virt="non-virtual"><scope>pod_array</scope><name>getSize</name></member>
+      <member refid="classpod__array_1ab66a73f4bb686f74e1501bed48d34634" prot="public" virt="non-virtual"><scope>pod_array</scope><name>operator=</name></member>
+      <member refid="classpod__array_1a25cec7b611d53edf118e8de0b16ec2c2" prot="public" virt="non-virtual"><scope>pod_array</scope><name>operator[]</name></member>
+      <member refid="classpod__array_1a25a8a70541e9c7076056444da53e7985" prot="public" virt="non-virtual"><scope>pod_array</scope><name>operator[]</name></member>
+      <member refid="classpod__array_1ad868ed5c343b59c25dcec71c1801f613" prot="public" virt="non-virtual"><scope>pod_array</scope><name>pod_array</name></member>
+      <member refid="classpod__array_1ab996d48f7d5ab64aeaa536028a0d0584" prot="public" virt="non-virtual"><scope>pod_array</scope><name>pod_array</name></member>
+      <member refid="classpod__array_1a09e6a569b4efa78ba43ec47c892329fd" prot="public" virt="non-virtual"><scope>pod_array</scope><name>setSize</name></member>
+      <member refid="classpod__array_1a609bcffa13ec365908e6d2a5eb021123" prot="public" virt="non-virtual"><scope>pod_array</scope><name>~pod_array</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

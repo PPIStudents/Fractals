@@ -1,0 +1,129 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Сборник лабораторных работ</title>
+<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Noto Serif', serif;
+   line-height: 1;
+   color: #231E20;
+   background: #7aa952;
+}
+
+a {
+   text-decoration: none;
+   color: #231E20;
+}
+
+.container {
+   padding: 0 20px;
+}
+
+h1 {
+   margin-bottom: 40px;
+}
+
+.toc-wrapper {
+   width: 100%;
+   max-width: 768px;
+   margin: 0 auto 40px;
+   padding-left: 40px;
+}
+
+.toc {
+   list-style: none;
+   counter-reset: li;
+   background-size: cover;
+   padding: 50px 0;
+}
+
+.toc li {
+   position: relative;
+   padding: 20px 20px 20px 0;
+   background: #7aa952;
+   line-height: 1.2;
+   transition: .3s linear;
+}
+
+.toc li:last-child {
+   margin-bottom: 0;
+}
+
+.toc li:before {
+   counter-increment: li;
+   content: counters(li, ".") ". ";
+   position: absolute;
+   width: 40px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 1.2em;
+   left: -40px;
+   top: 0;
+   bottom: 0;
+   display: flex;
+   align-items: center;
+   transition: .3s linear;
+}
+
+.toc li:hover:before {
+   padding-left: 10px;
+}
+
+@media(max-width:767px) {
+   h1 {
+      margin-bottom: 30px;
+   }
+
+   .toc li {
+      padding: 15px 20px 15px 0;
+      margin-bottom: 40px;
+   }
+}
+	  </style>
+</head>
+
+<body>
+<div class="container">
+   <section class="toc-wrapper">
+      <h1>Лабораторные работы</h1>
+      <ol class="toc">
+         <li><a  href="reports/1лаба.docx">№1 Базовые принципы работы с системами контроля версий</a></li>
+         <li><a href="reports/2лаба.docx">№2 Работа с ветками</a></li>
+         <li><a href="reports/3лаба.docx">№3 Восстановление данных из ранних ревизий</a></li>
+         <li><a href="reports/4лаба.docx">№4 Создание самодокументирующегося кода</a></li>
+         <li><a href="reports/5лаба.docx">№5 Разработка ручной документации</a></li>
+         <li><a href="reports/6лаба.docx">№6 Веб-сайт из репозитория</a></li>
+         <li>Модули</br>
+		 1. Аутентификация и авторизация (регистрация, вход, выход, управление ролями)
+</br>2. Управление профилями пользователей (редактирование профилей, аватары)
+</br>3. Создание и управление ветками обсуждений (темы, подфорумы)
+</br>4. Управление сообщениями (создание, редактирование, удаление)
+</br>5. Модерация и управление пользователями (бан, предупреждения, одобрение сообщений)
+</br>6. Поиск по форуму (по темам, сообщениям, пользователям)
+</br>7. Система уведомлений (личные сообщения, подписки на темы, уведомления о новых сообщениях)
+</br>8. Рейтинг и система наград (лайки, репутация, достижения)
+</br>9. Статистика форума (общая, по пользователям, по темам)
+</br>10. Административный интерфейс (управление настройками форума, модераторами, стилями и шаблонами)
+</br>11. Интеграция с социальными сетями (авторизация, шаринг, комментарии)
+</br>12. Файловый менеджер (загрузка и хранение вложений, изображений)
+</br>13. Управление тегами (создание, редактирование, удаление, поиск по тегам)
+</br>14. Календарь событий (организация мероприятий, событий, напоминания)
+</br>15. Система опросов (создание, участие, анализ результатов)
+</br>16. Чат и мгновенные сообщения (обмен сообщениями в режиме реального времени)
+</br>17. Мобильная версия и приложение (адаптивный дизайн, push-уведомления)
+</br>18. API для интеграции с внешними сервисами (данные пользователей, сообщений, тем)
+</br>19. Резервное копирование и восстановление данных (базы данных, файлов)
+</br>20. Оптимизация и кеширование (улучшение производительности, снижение нагрузки на сервер)
+</li>
+      </ol>
+   </section>
+</div>
+
+</body>
