@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window" xml:lang="en-US">
+<title>Браузер.MainWindow Class Reference</title>
+<indexterm><primary>Браузер.MainWindow</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+ 
+</para>
+<para>Inheritance diagram for Браузер.MainWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4bdd7099ac9f1799e780e66111c228e0">MainWindow</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ab4cfa43e953c264d8f2d8bd0b4cb5da0">nameFile</link> = Directory.GetCurrentDirectory() + @&quot;\History.dat&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1a4bdd7099ac9f1799e780e66111c228e0"/><section>
+    <title>MainWindow()</title>
+<indexterm><primary>MainWindow</primary><secondary>Браузер.MainWindow</secondary></indexterm>
+<indexterm><primary>Браузер.MainWindow</primary><secondary>MainWindow</secondary></indexterm>
+<para><computeroutput>Браузер.MainWindow.MainWindow ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window_1ab4cfa43e953c264d8f2d8bd0b4cb5da0"/><section>
+    <title>nameFile</title>
+<indexterm><primary>nameFile</primary><secondary>Браузер.MainWindow</secondary></indexterm>
+<indexterm><primary>Браузер.MainWindow</primary><secondary>nameFile</secondary></indexterm>
+<para><computeroutput>string Браузер.MainWindow.nameFile = Directory.GetCurrentDirectory() + @&quot;\History.dat&quot;</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__main_window_8xaml_8cs">MainWindow.xaml.cs</link></section>
+</section>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_app" xml:lang="en-US">
+<title>Браузер.App Class Reference</title>
+<indexterm><primary>Браузер.App</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для App.xaml. </para>
+ 
+</para>
+<para>Inheritance diagram for Браузер.App:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_app.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para>Логика взаимодействия для App.xaml. </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__app_8xaml_8cs">App.xaml.cs</link></section>
+</section>

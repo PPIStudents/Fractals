@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history" xml:lang="en-US">
+<title>Браузер.History Class Reference</title>
+<indexterm><primary>Браузер.History</primary></indexterm>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6ab3e3b713ac2753b3f2963e3670670c">URL</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a406e533b4761c6b3fedc0016df0dfd7d">Time</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6fb3fb17b42d67e16e882493ce19fbf1">Date</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6fb3fb17b42d67e16e882493ce19fbf1"/><section>
+    <title>Date</title>
+<indexterm><primary>Date</primary><secondary>Браузер.History</secondary></indexterm>
+<indexterm><primary>Браузер.History</primary><secondary>Date</secondary></indexterm>
+<para><computeroutput>string Браузер.History.Date<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a406e533b4761c6b3fedc0016df0dfd7d"/><section>
+    <title>Time</title>
+<indexterm><primary>Time</primary><secondary>Браузер.History</secondary></indexterm>
+<indexterm><primary>Браузер.History</primary><secondary>Time</secondary></indexterm>
+<para><computeroutput>string Браузер.History.Time<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_1a6ab3e3b713ac2753b3f2963e3670670c"/><section>
+    <title>URL</title>
+<indexterm><primary>URL</primary><secondary>Браузер.History</secondary></indexterm>
+<indexterm><primary>Браузер.History</primary><secondary>URL</secondary></indexterm>
+<para><computeroutput>string Браузер.History.URL<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__history_8cs">History.cs</link></section>
+</section>

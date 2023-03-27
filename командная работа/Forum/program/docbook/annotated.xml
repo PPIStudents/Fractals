@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_app">Браузер.App</link>
+<para>Логика взаимодействия для App.xaml </para>
+<link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_closable_tab_item">Браузер.ClosableTabItem</link><link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker">Браузер.ColorPicker</link>
+<para>Логика взаимодействия для ColorPicker.xaml </para>
+<link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history">Браузер.History</link><link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_history_dialog">Браузер.HistoryDialog</link>
+<para>Логика взаимодействия для HistoryDialog.xaml </para>
+<link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_main_window">Браузер.MainWindow</link>
+<para>Логика взаимодействия для MainWindow.xaml </para>
+<link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization">Браузер.Serialization</link></section>

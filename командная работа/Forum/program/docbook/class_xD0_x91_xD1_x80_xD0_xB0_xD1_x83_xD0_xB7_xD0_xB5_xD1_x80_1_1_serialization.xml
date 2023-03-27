@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization" xml:lang="en-US">
+<title>Браузер.Serialization Class Reference</title>
+<indexterm><primary>Браузер.Serialization</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1a947c9316ffcb3a198090cd802f252eea">Save</link> (object source, string filePath)</para>
+</listitem>
+            <listitem><para>static T <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1af8fe6e538aa7a322ab433442f7c39d24">Get&lt; T &gt;</link> (string filePath)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1af8fe6e538aa7a322ab433442f7c39d24"/><section>
+    <title>Get&lt; T &gt;()</title>
+<indexterm><primary>Get&lt; T &gt;</primary><secondary>Браузер.Serialization</secondary></indexterm>
+<indexterm><primary>Браузер.Serialization</primary><secondary>Get&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>static T Браузер.Serialization.Get&lt; T &gt; (string filePath)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_serialization_1a947c9316ffcb3a198090cd802f252eea"/><section>
+    <title>Save()</title>
+<indexterm><primary>Save</primary><secondary>Браузер.Serialization</secondary></indexterm>
+<indexterm><primary>Браузер.Serialization</primary><secondary>Save</secondary></indexterm>
+<para><computeroutput>static void Браузер.Serialization.Save (object source, string filePath)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__serialization_8cs">Serialization.cs</link></section>
+</section>

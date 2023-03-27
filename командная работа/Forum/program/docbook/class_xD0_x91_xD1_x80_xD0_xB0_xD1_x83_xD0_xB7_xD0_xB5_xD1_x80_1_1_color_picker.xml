@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker" xml:lang="en-US">
+<title>Браузер.ColorPicker Class Reference</title>
+<indexterm><primary>Браузер.ColorPicker</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для ColorPicker.xaml. </para>
+ 
+</para>
+<para>Inheritance diagram for Браузер.ColorPicker:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a0b89d8bd425c81d4a440ef85f8b6a4ce">ColorPicker</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac15e5176cda83a88daf090915917dffb">path</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Логика взаимодействия для ColorPicker.xaml. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1a0b89d8bd425c81d4a440ef85f8b6a4ce"/><section>
+    <title>ColorPicker()</title>
+<indexterm><primary>ColorPicker</primary><secondary>Браузер.ColorPicker</secondary></indexterm>
+<indexterm><primary>Браузер.ColorPicker</primary><secondary>ColorPicker</secondary></indexterm>
+<para><computeroutput>Браузер.ColorPicker.ColorPicker ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_xD0_x91_xD1_x80_xD0_xB0_xD1_x83_xD0_xB7_xD0_xB5_xD1_x80_1_1_color_picker_1ac15e5176cda83a88daf090915917dffb"/><section>
+    <title>path</title>
+<indexterm><primary>path</primary><secondary>Браузер.ColorPicker</secondary></indexterm>
+<indexterm><primary>Браузер.ColorPicker</primary><secondary>path</secondary></indexterm>
+<para><computeroutput>string Браузер.ColorPicker.path</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="__color_picker_8xaml_8cs">ColorPicker.xaml.cs</link></section>
+</section>
