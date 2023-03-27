@@ -1,11 +1,4 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallelity", "Parallelity\Parallelity.csproj", "{E303D5C8-CBD6-408C-B0D6-B62A6C93B278}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D1FE7E1B-0001-44B7-9B5D-E3FB5E037671} = {D1FE7E1B-0001-44B7-9B5D-E3FB5E037671}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractals", "Fractals\Fractals.csproj", "{C73008B2-1DB8-421C-A758-42AC67CB6CAD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D1FE7E1B-0001-44B7-9B5D-E3FB5E037671} = {D1FE7E1B-0001-44B7-9B5D-E3FB5E037671}
